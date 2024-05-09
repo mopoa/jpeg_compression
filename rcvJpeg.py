@@ -163,4 +163,4 @@ yiq_img = np.dstack((y, i, q))
 
 rgb_img=yiq2rgb(yiq_img)
 
-save_rgb_image_to_ppm(rgb_img,"rcvtest.ppm")
+save_rgb_image_to_ppm(rgb_img,"img/rcvtest.ppm")

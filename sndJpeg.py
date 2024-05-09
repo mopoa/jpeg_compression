@@ -104,7 +104,7 @@ def send_strings_over_network(strings, host, port):
         client_socket.close()
 
 
-image_path = "testimage.ppm"
+image_path = "img/testimage.ppm"
 img = Image.open(image_path)
 
 
